@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(156, 34%, 89%);
+}
+.layer {
+  background-color: rgb(248, 236, 236);
+  margin-left: 9%;
+  margin-right: 9%;
+  border-radius: 10px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  height: 95vh;
+  margin-top: 1rem;
+  margin-left: 200px;
+}
+
+.item2 {
+  background-color: whitesmoke;
+  width: 320px;
+  height: 28em;
+}
+
+main {
+  margin: 35px;
+}
+main h1 {
+  font-weight: 200;
+  font-size: xx-large;
+  font-family: Montserrat;
+}
+main p {
+  font-weight: 10px;
+}
+main article {
+  font-family: fraunces;
+}
+main button {
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  margin-top: 0;
+  background-color: rgb(24, 88, 24);
+  color: white;
+  border: 1px solid white;
+}
+button:hover {
+  background-color: rgb(8, 27, 8);
+  cursor: pointer;
+}
+main h2 {
+  color: rgb(25, 59, 25);
+}
